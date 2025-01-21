@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Title of the app
-st.title("FEMSA Dashboard")
+st.title("Maxon Dashboard")
 
 # Upload the Excel file
 uploaded_file = st.file_uploader("Choose an Excel file", type="xlsx")
@@ -28,3 +28,4 @@ if uploaded_file:
 
     # Display the plot
     st.pyplot(fig)
+st.write("vector-lmd")
