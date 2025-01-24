@@ -2,6 +2,22 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
+import streamlit as st
+
+st.markdown(
+    """
+    <style>
+    .main .block-container {
+        padding: 0;
+        background-color: green;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.title("Maxon Dashboards")
 # Title of the app
 st.title("Maxon Dashboard")
 

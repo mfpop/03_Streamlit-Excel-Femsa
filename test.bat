@@ -1,1 +1,1 @@
-uv run streamlit run src/test.py
+uv run streamlit run src/ass.py
